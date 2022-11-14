@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
+body{
+  background-image:url("https://img.freepik.com/free-vector/cosmetics-elements-collection_1096-253.jpg?w=996&t=st=1668450071~exp=1668450671~hmac=33aa3b7e9b73959d28f4cc6db670763d662ac498f41a595631ac602a151b1b86");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #d42127 ;
+  
 }
-
-.App-link {
-  color: #61dafb;
+.header{
+  display: flex;
+  justify-content: center;
+  margin: 30px;
 }
+img{
+  margin: 20px;
+}
+.heading{
+  display: flex;
+  justify-content: center;
+  background-color: #de8a92 ; 
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+h1,h2{
+  border: 2px solid #d42127;
+  background-color: #d42127;
+  margin: 10px;
+  font-family: 'Sono', sans-serif;
+  color:#de8a92
+
+}
+button{
+  border: 2px solid #d42127;
+  background-color: #d42127;
+  margin: 10px;
+  font-family: 'Sono', sans-serif;
+  padding: 10px;
+  font-size: 20px;
+  color:#de8a92;
+
+
+}
+@media all and (max-width:800px){
+    img{
+      font-size: 100px;
+
+    }
+    h1{
+      font-size: 20px;
+    }
+    .header{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .container{
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+
+  
+  
 }
