@@ -23,7 +23,7 @@ const removeOutfit =(id)=>{
       <img src={photo}width="500px"alt="dress"/>
       </div>
     {outfits.map((element=>{
-      const {id,outfit,description,image,} = element;
+      const {id,outfit,image} = element;
       return(
         <div key={id}>
           <div className="heading">
