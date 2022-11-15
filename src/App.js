@@ -31,7 +31,7 @@ const removeOutfit =(id)=>{
           </div>
 
           <div className="heading">
-            <img src={image}width="500px"/>
+            <img src={image}width="500px" alt="fashion"/>
           </div>
 
           <div className="heading">
